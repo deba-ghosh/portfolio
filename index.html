@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Deba /</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Draco is free PSD &amp; HTML template by @flamekaizar">
+    <meta name="author" content="Afnizar Nur Ghifari">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/kube.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/custom.min.css" />
+    <link rel="shortcut icon" href="img/favicon.png" />
+	<link href='http://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	<style>
+		.intro h1:before {
+			/* Edit this with your name or anything else */
+			content: 'DEBA';
+		}
+	</style>
+</head>
+<body>
+	<!-- Navigation -->
+	<div class="main-nav">
+		<div class="container">
+			<header class="group top-nav">
+				<div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
+				    <span class="logo">DEBA</span>
+				</div>
+			    <nav id="navbar-1" class="navbar item-nav">
+				    <ul>
+				        <li class="active"><a href="#about">About</a></li>
+				        <li><a href="#experiences">Experiences</a></li>
+				        <li><a href="Achievements.html#achievements">Achievements</a></li>
+				        <li><a href="#skills">Skills</a></li>
+					<li><a href="#education">Education</a></li>
+				    </ul>
+			    </nav>
+			    <div class="unit-50">
+					<ul class="social list-flat right">
+						<li><a href="mailto:debaditya.ghosh@gmail.com"><i class="fa fa-send"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/debaditya-ghosh/"><i class="fa fa-linkedin"></i></a></li>
+					</ul>
+			    </div>
+			</header>
+		</div>
+	</div>
+
+	<!-- Introduction -->
+	<div class="intro section" id="about">
+		<div class="container">
+			<p>Hi, I’m Deba</p>
+			<div class="units-row units-split wrap">
+				<div class="unit-20">
+					<img src="img/dg_bw.jpg" alt="Avatar">
+				</div>
+				<div class="unit-80">
+					<h1>I SPECIALIZE IN<br><span id="typed"></span></h1>					
+				</div>
+				<p>
+				I lead Epic integrations and EHR interoperability, turning complex challenges into seamless solutions. From Smart on FHIR to end-to-end deployments, I optimize workflows, enhance patient care, and drive digital health forward.. 
+				</p>				
+			</div>
+		</div>
+	</div>
+
+	<!-- Work Experience -->
+	<div class="work section second" id="experiences">
+		<div class="container">
+			<h1>Work<br>Experiences</h1>
+			<ul class="work-list">
+				<li>10/2024-Present</li>
+				<li><a href="https://www.dshs.wa.gov/">Washington State Department of Social and Health Services</a></li>
+				<li>IT Architect - Third-Party Applications</li>
+			</ul>
+			<ul class="work-list">
+				<li>11/2007-09/2024</li>
+				<li><a href="https://www.epic.com/">Epic Systems</a></li>
+				<li>Sr. Integration Engineer</li>
+			</ul>
+
+		</div>
+	</div>
+
+
+	<!-- Technical Skills -->
+	<div class="skills section second" id="skills">
+		<div class="container">
+			<h1>Technical<br>Skills</h1>
+			<ul class="skill-list list-flat">
+				<li> Tools/ Software </li>
+				<li>MS Office Suite | SharePoint | Postman | Mirth | Jira | Confluence | sFTP | VPN </li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li> Web Services & APIs </li>
+				<li> SOAP | REST APIs | JSON | Oauth 2.0 | Smart on FHIR | Cloud Architectures (AWS) </li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>Database</li>
+				<li>MySQL | SQL Server </li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li> Programming </li>
+				<li> Intersystems Caché | JavaScript | SQL | PHP | Python | C++ | XML | HTML </li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li> Healthcare Standards </li>
+				<li> HL7 (V2/V3, FHIR) | X12 | CDA | CCDA | SNOMED CT | LOINC | ICD 10 | HIPAA  </li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Education -->
+	<div class="work section second" id="education">
+		<div class="container">
+			<h1>Education</h1>
+			<ul class="work-list">
+				<li>08/2005-07/2007</li>
+				<li><a href="https://business.wisc.edu/"> MBA in Information Systems </a></li>
+				<li> University of Wisconsin, Madison, WI </li>
+			</ul>
+			<ul class="work-list">
+				<li>08/2002-03/2005</li>
+				<li> <a href="https://www.ece.utah.edu/"> MS in Electrical Engineering </a></li>
+				<li> University of Utah, Salt Lake City, UT </li>
+			</ul>
+
+		</div>
+	</div>
+
+	<footer>
+		<div class="container">
+			<div class="units-row">
+			    <div class="unit-50">
+			    	<p>&copy; <span id="year"></span> Debaditya Ghosh. All rights reserved.</p>
+			    </div>
+
+			</div>
+		</div>
+	</footer>
+
+	<!-- Javascript -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/typed.min.js"></script>
+    <script src="js/kube.min.js"></script>
+    <script src="js/site.js"></script>
+    <script>
+		function newTyped(){}$(function(){$("#typed").typed({
+		// Change to edit type effect
+		strings: ["Epic integrations", "EHR interoperability", "Technical project management"],
+
+		typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
+    </script>
+    <script>
+    	/	/ Get the current year dynamically
+    		document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
